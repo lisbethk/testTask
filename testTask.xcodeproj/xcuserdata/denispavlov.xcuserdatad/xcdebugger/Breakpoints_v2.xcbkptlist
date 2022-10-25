@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F1980126-95BC-4B34-9D51-656E945B69DE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51D48DD4-37B8-48B0-BDE1-9536259E8198"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testTask/MainScreen/MainScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "dataSource"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B8BA50A-F404-4F97-8322-3AD06A7D83F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testTask/MainScreen/TextInputCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "TextInputCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD3C95F3-2186-4BB1-8529-A8407E733BC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testTask/MainScreen/MainScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "dataSource"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BD3C95F3-2186-4BB1-8529-A8407E733BC3 - 20070fc46e8c8069"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in closure #1 () -&gt; UIKit.UICollectionViewDiffableDataSource&lt;testTask.Section, Foundation.UUID&gt; in testTask.MainScreenViewController.dataSource.getter : UIKit.UICollectionViewDiffableDataSource&lt;testTask.Section, Foundation.UUID&gt;"
+                  moduleName = "testTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denispavlov/Desktop/karase/testTask/testTask/MainScreen/MainScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "2032">
+               </Location>
+               <Location
+                  uuid = "BD3C95F3-2186-4BB1-8529-A8407E733BC3 - cfe4895883bec79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 (__C.UICollectionView, Swift.String, Foundation.IndexPath) -&gt; Swift.Optional&lt;__C.UICollectionReusableView&gt; in closure #1 () -&gt; UIKit.UICollectionViewDiffableDataSource&lt;testTask.Section, Foundation.UUID&gt; in testTask.MainScreenViewController.dataSource.getter : UIKit.UICollectionViewDiffableDataSource&lt;testTask.Section, Foundation.UUID&gt;"
+                  moduleName = "testTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denispavlov/Desktop/karase/testTask/testTask/MainScreen/MainScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF9310FF-0820-45C5-92DB-67E1E9313C86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testTask/MainScreen/MainScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "dataSource"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
