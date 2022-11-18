@@ -15,3 +15,4 @@
 1. Используемые фремворки: UIKit, SnapKit.
 2. Архитектура MVP(MVP+R)
 3. Были использованы: SheetPresentationController, CollectionView, StackView, CollectionReusableView, DiffableDataSource, CompositionalLayout
+4. Вёрстка производилась при помощи кода
