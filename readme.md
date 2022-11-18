@@ -9,6 +9,7 @@
 Интерфейс должен быть разработан на UIKit (не SwiftUI)." 
 
 Желаемый вид интерфейса: 
+
 ![task](https://user-images.githubusercontent.com/104148937/202729452-292fb749-d4ef-4ce8-be54-06c25cbdc8d0.png)
 
 1. Используемые фремворки: Foundation, UIKit, SnapKit.
