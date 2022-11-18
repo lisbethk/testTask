@@ -32,6 +32,7 @@ final class CellView: UIView {
         
         frameView.snp.makeConstraints { make in
             make.width.centerX.equalToSuperview()
+            make.height.equalToSuperview()
         }
         
         textField.snp.makeConstraints { make in

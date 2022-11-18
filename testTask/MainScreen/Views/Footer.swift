@@ -12,6 +12,9 @@ final class Footer: UICollectionReusableView {
     
     override func didMoveToSuperview() {
         super.didMoveToSuperview()
+        
+        deleteButton.addTarget(self, action: #selector(didTap), for: .touchUpInside)
+        
         addSubview(deleteButton)
         deleteButton.setTitle("Очистить", for: .normal)
         deleteButton.layer.cornerRadius = 22
@@ -21,10 +24,11 @@ final class Footer: UICollectionReusableView {
         
         
         deleteButton.snp.makeConstraints { make in
-            make.top.equalToSuperview()
-            make.width.equalToSuperview().multipliedBy(0.6)
-            make.height.equalToSuperview()
+//            make.top.equalToSuperview()
+            make.width.equalToSuperview().multipliedBy(0.58)
+            make.height.equalToSuperview().multipliedBy(0.90)
             make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview()
         }
         deleteButton.addTarget(self, action: #selector(didTap), for: .touchUpInside)
     }

@@ -26,7 +26,7 @@ final class Header: UICollectionReusableView {
         var configuration = UIButton.Configuration.borderless()
         configuration.title = "Добавить ребенка"
         configuration.baseForegroundColor = UIColor.systemBlue
-        configuration.contentInsets = .init(top: 0, leading: 30, bottom: 0, trailing: 30)
+        configuration.contentInsets = .init(top: 30, leading: 30, bottom: 30, trailing: 30)
         button.layer.borderColor = UIColor.systemBlue.cgColor
         button.layer.borderWidth = 1
         button.layer.cornerRadius = 22

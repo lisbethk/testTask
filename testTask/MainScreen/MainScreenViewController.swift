@@ -102,24 +102,21 @@ final class MainScreenViewController: UIViewController, MainScreenViewController
         
         let layout = UICollectionViewCompositionalLayout(
             sectionProvider: { index, id in
+                let size = NSCollectionLayoutSize(
+                    widthDimension: .fractionalWidth(1.0),
+                    heightDimension: .estimated(50)
+                )
+            
+                let item = NSCollectionLayoutItem(layoutSize: size)
                 
-                let itemSize = NSCollectionLayoutSize(
-                    widthDimension: .fractionalWidth(1.0),
-                    heightDimension: .fractionalHeight(0.25)
-                )
-                let item = NSCollectionLayoutItem(layoutSize: itemSize)
-                let groupSize = NSCollectionLayoutSize(
-                    widthDimension: .fractionalWidth(1.0),
-                    heightDimension: .fractionalHeight(0.8)
-                )
                 let group = NSCollectionLayoutGroup.vertical(
-                    layoutSize: groupSize,
+                    layoutSize: size,
                     subitems: [item]
                 )
                 var section = NSCollectionLayoutSection(group: group)
                 let headerFooterSize = NSCollectionLayoutSize(
                     widthDimension: .fractionalWidth(1.0),
-                    heightDimension: .absolute(50)
+                    heightDimension: .absolute(55)
                 )
                 let header = NSCollectionLayoutBoundarySupplementaryItem(
                     layoutSize: headerFooterSize,
